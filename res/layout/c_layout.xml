@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="30sp" 
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/functionbutton"
+            android:text="@string/clear"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/functionbutton"
+            android:text="@string/delete"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num1"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num3"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/functionbutton"
+            android:text="@string/divide"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num4"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num5"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num6"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/functionbutton"
+            android:text="@string/multiply"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num7"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num8"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/numbutton"
+            android:text="@string/num9"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/functionbutton"
+            android:text="@string/minus"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/numbutton"
+                    android:text="@string/num0"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/point"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/functionbutton"
+                    android:text="@string/point"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/equality"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/functionbutton"
+                android:text="@string/equality"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/functionbutton"
+            android:text="@string/add"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

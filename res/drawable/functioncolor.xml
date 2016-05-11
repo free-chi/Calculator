@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--  指定边框 ,边框必须要的 -->
+    <stroke
+        android:width="0.25dp"
+        android:color="#000000" />
+    
+<!--  填充颜色,选中和未选中的区别就在这里还有文字颜色="" -->
+    <solid
+        android:color="#000000" />
+    <gradient
+        android:angle="90"
+        android:endColor="#333333"
+        android:startColor="#333333"
+        android:type="linear" />
+
+</shape>
